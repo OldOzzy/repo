@@ -153,6 +153,7 @@ a:hover {
     letter-spacing: -0.07em;
     text-transform: uppercase;
     color: #E3B873;
+    margin: 0;
 }
 
 .subtitle-h3 {
@@ -198,11 +199,22 @@ a:hover {
     color: #FFFFFF;
 }
 
+.h4-paragraph {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
 .container_projects-content{
     margin: 176px;
     color: white;
     height: 442px;
     width: 390px;
+    padding: 0px;
 }
 
 .div {
@@ -231,6 +243,7 @@ a:hover {
     color: white;
     display: flex;
     padding-bottom: 52px;
+    justify-content: space-between
 }
 
 .container-flex {
@@ -244,4 +257,5 @@ a:hover {
 
 .container-flex-internal_alignment {
     display: flex;
+    flex-direction: column;
 }
