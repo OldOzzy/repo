@@ -1,0 +1,247 @@
+@font-face {
+    font-family: NunitoSans;
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: YesevaOne;
+    src: url(../fonts/YesevaOne-Regular.ttf);
+}
+@font-face {
+    font-family: NunitoSans-Light;
+    src: url(../fonts/NunitoSans-Light.ttf);
+}
+body {
+    margin: 0;
+    font-family: 'Nunito Sans' Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1438px;
+    margin: 0 auto;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+} 
+
+a:hover {
+    color: #E3B873;
+}
+
+.button-call {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: NunitoSans;
+}
+
+.button-calculate {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    padding: 19px 42px 20px 41px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: NunitoSans;
+}
+
+.button-transparent {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    outline: 0;
+    padding: 19px 23px 21px 22px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    background: transparent;    
+    background-color: transparent;
+    margin-left: 20px
+}
+
+.logo {
+    color: #E3B873;
+}
+
+.header {
+    background-color: black;
+    font-family: NunitoSans;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+
+}
+
+.header-navigation_item {
+    margin-right: 47px;
+}
+
+.header-navigation_link {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+
+}
+
+.hero-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .7);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.subtitle-h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.subtitle-h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.color-text {
+    color: #E3B873;
+    font-family: Yeseva One;
+}
+
+.title-paragraph {
+    font-family: 'NunitoSans-Light';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.projects-paragraph {
+    font-family: 'NunitoSans-Light';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    font-style: normal;
+    color: #FFFFFF;
+    font-size: medium; 
+}
+
+.h3-paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.container_projects-content{
+    margin: 176px;
+    color: white;
+    height: 442px;
+    width: 390px;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-right: 49px;
+    /* большой вопрос по отступам */
+}
+
+.container_photo-projects {
+    height: 24px;
+    width: 623px;
+    color: white;
+    display: flex;
+    padding-bottom: 52px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.container-flex-internal_alignment {
+    display: flex;
+}
